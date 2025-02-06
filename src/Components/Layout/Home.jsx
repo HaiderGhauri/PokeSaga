@@ -11,35 +11,6 @@ export function Home() {
   const [search, setSearch] = useState("");
   const [pageNumber, setPageNumber] = useState(1);
 
-//   let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
-
-//   const fetchAPI = async (url, page = 1) => {
-//     try {
-//       const res = await fetch(url);
-//       const data = await res.json();
-//       setPrevUrl(data.previous);
-//       setNextUrl(data.next);
-//       setPageNumber(page);
-
-//       const detailedFetchData = data.results.map(async (curPokemon) => {
-//         const res = await fetch(curPokemon.url);
-//         const data = await res.json();
-//         return data;
-//       });
-
-//       const detailedResponses = await Promise.all(detailedFetchData);
-//       setPokemon(detailedResponses);
-//       setLoading(false)
-      
-//     } catch (error) {
-//       setLoading(false)
-//     }
-//   };
-
-//   useEffect(() => {
-//     fetchAPI(initialAPI)
-//   }, []);
-
 let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
 
   useEffect(() => {
