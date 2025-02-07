@@ -37,7 +37,7 @@ export function Header() {
         <header className="mx-auto w-full h-20 px-2 sm:px-6 lg:px-10 flex justify-between items-center bg-stone-400 text-amber-950 font-semibold fixed z-10 top-0">
             <div className="lg:ml-15">
                 <NavLink to={"/"} onClick={handleLinkClick}>
-                    <p className="text-xl">
+                    <p className="text-2xl">
                         <span className="text-amber-300 pl-1 pb-1 sm:pb-1 font-bold border-dashed border-rose-50 border-1 border-r-0">Poké</span>
                         <span className="text-rose-50 pl-0.5 pr-1 pb-1 sm:pb-1 border-dashed border-amber-300 border-1 border-l-0">saga</span>
                     </p>
