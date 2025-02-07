@@ -71,5 +71,5 @@ let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
 
     </section>
 
-  )
+  );
 };
