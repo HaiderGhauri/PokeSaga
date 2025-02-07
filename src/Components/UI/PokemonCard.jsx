@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 export function PokemonCard({ pokemonData }) {
 
     return (
-        <NavLink to={`/${pokemonData.id}`}>
+        <NavLink to={`/explore/${pokemonData.id}`}>
         <li
-            className="relative h-[380px] shadow-[0_0_8px_rgba(0,0,0,0.3)] transition delay-150 duration-300 ease-in-out scale-100 hover:scale-103 flex flex-col bg-white z-50 group">
+            className="relative h-[380px] shadow-[0_0_8px_rgba(0,0,0,0.3)] transition delay-150 duration-300 ease-in-out scale-100 hover:scale-103 flex flex-col bg-white group">
             <div className="absolute top-10 left-0 right-0 h-[40%] bg-[#ebfbf1] rounded-[80%_50%_90%_50%] 
                 group-hover:rounded-[0%_0%_90%_50%] transition-all duration-300 group-hover:top-0 z-[-1]"></div>
             <figure className="flex items-center justify-center p-5 mt-4">

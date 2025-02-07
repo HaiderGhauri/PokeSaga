@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { PokemonCard } from "../UI/PokemonCard";
 import { fetchAPI } from "../APICalling/GetInitialData";
 
-export function Home() {
+export function Pokedex() {
 
   const [pokemon, setPokemon] = useState([]);
   const [prevUrl, setPrevUrl] = useState(null);
@@ -33,8 +33,8 @@ let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
   };
 
   return (
-    <>
-    <section className="mx-auto max-w-[1300px] w-[95%] my-12 flex flex-col gap-10 justify-center items-center">
+   
+    <section className="mx-auto max-w-[1300px] w-[95%] my-14 mt-28 sm:my-16 sm:mt-32 flex flex-col gap-10 justify-center items-center z-0">
 
       <header>
         <h1 className="text-3xl font-semibold">Let's Catch Pokémon</h1>
@@ -70,6 +70,6 @@ let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
       </div>
 
     </section>
-    </>
+
   )
 };

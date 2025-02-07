@@ -21,7 +21,7 @@ export function PokemonDetail() {
     if (!pokemon) return <h2>Pokémon not found</h2>;
 
     return (
-        <div  className="max-w-[400px] mx-auto my-16 relative shadow-[0_0_8px_rgba(0,0,0,0.3)] transition delay-150 duration-300 ease-in-out scale-100 hover:scale-103 flex flex-col bg-white z-50 group">
+        <div  className="max-w-[400px] mx-auto my-30 mt-45 relative shadow-[0_0_8px_rgba(0,0,0,0.3)] transition delay-150 duration-300 ease-in-out scale-100 hover:scale-103 flex flex-col bg-white z-50 group">
             <div className="absolute top-4 left-0 right-0 h-[35%] bg-[#ebfbf1] rounded-[80%_50%_90%_50%] 
                 group-hover:rounded-[0%_0%_90%_50%] transition-all duration-300 group-hover:top-0 z-[-1]"></div>
             <figure className="flex items-center justify-center p-5 mt-5">
