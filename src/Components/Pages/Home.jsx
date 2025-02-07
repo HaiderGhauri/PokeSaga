@@ -4,7 +4,7 @@ export function Home() {
 
   return (
     <>
-      <section className="flex min-h-lvh justify-center items-center gap-4 lg:gap-0 flex-col-reverse lg:flex-row md:flex-col-reverse py-16 px-6 lg:px-36 md:px-15 bg-amber-200">
+      <section className="flex min-h-lvh justify-center items-center gap-4 lg:gap-0 flex-col-reverse lg:flex-row md:flex-col-reverse py-18 px-6 lg:px-36 md:px-15 bg-amber-200">
         <div className="flex flex-col gap-8 basis-[50%]">
           <h1 className="text-xl sm:text-4xl font-semibold text-amber-950">
             Catch 'Em All In The World of Pokémon!</h1>
