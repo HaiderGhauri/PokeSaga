@@ -18,7 +18,7 @@ export function Home() {
         <div className="justify-items-center">
           {/* <img src="src/assets/banner-img.png"
             className="w-full md:w-2/3 sm:w-1/4 drop-shadow-[0px_30px_5px_rgba(0,0,0,0.35)]" /> */}
-            <img src="src/assets/banner-img.png"
+            <img src="/banner-img.png"
             className="w-full md:w-2/3 sm:w-1/4 drop-shadow-[0px_30px_5px_rgba(0,0,0,0.35)]" />
         </div>
       </section>
