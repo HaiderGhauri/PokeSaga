@@ -23,7 +23,7 @@ let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
 
   if(loading) {
     return (
-      <div className="text-3xl text-center"><h1>Loading...</h1></div>
+      <div className="text-3xl text-center mt-24"><h1>Loading...</h1></div>
     )
   };
   

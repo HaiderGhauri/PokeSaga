@@ -26,14 +26,6 @@ export function PokemonCard({ pokemonData }) {
 
                 <p><span className="font-bold">Speed: </span>{pokemonData.stats[5].base_stat}</p>
             </div>
-
-            {/* <div className="grid grid-cols-3 gap-4 px-4 mx-auto my-3 mb-6 capitalize text-center">
-                <p><span className="font-bold block">Experience: </span>{pokemonData.base_experience}</p>
-
-                <p><span className="font-bold block">Attack: </span>{pokemonData.stats[1].base_stat}</p>
-
-                <p><span className="font-bold block">Abilities: </span>{pokemonData.abilities.map((abilityInfo) => abilityInfo.ability.name).splice(0, 1).join(', ')}</p>
-            </div> */}
         </li>
         </NavLink>
     )
