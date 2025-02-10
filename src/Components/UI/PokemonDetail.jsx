@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { fetchPokemonById } from "../APICalling/GetDetailData";
+import { Loader } from "./Loader";
 
 export function PokemonDetail() {
     const { id } = useParams();
@@ -17,7 +18,7 @@ export function PokemonDetail() {
         getPokemon();
     }, [id]);
 
-    if (loading) return <h2 className="text-3xl text-center mt-24">Loading...</h2>
+    if (loading) return <Loader />
     if (!pokemon) return <h2>Pokémon not found</h2>
 
     return (

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { PokemonCard } from "../UI/PokemonCard";
 import { fetchAPI } from "../APICalling/GetInitialData";
+import { Loader } from "../UI/Loader";
 
 export function Pokedex() {
 
@@ -23,7 +24,7 @@ let initialAPI = "https://pokeapi.co/api/v2/pokemon?limit=24";
 
   if(loading) {
     return (
-      <div className="text-3xl text-center mt-24"><h1>Loading...</h1></div>
+      <Loader />
     )
   };
   

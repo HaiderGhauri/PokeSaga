@@ -5,10 +5,12 @@ import { Pokedex } from "./Components/Pages/Explore";
 import { AppLayout } from "./Components/Pages/AppLayout";
 import { Contact } from "./Components/Pages/Contact";
 import { About } from "./Components/Pages/About";
+import { ErrorPage } from "./Components/Pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <AppLayout />,
     children: [
       {
