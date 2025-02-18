@@ -1,8 +1,16 @@
-# React + Vite
+# PokéSaga
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PokéSaga is your ultimate Pokémon companion, providing quick and detailed Pokémon stats, evolutions, and battle insights. Whether you're a casual fan or a competitive strategist, PokéSaga makes it easy to explore Pokémon details.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔎 **Search Pokémon by Name** – Instantly find any Pokémon.
+- 🔁 **View Pokémon Evolutions** – Track how your favorite Pokémon evolve.
+- ⚔️ **Battle Strategy Insights** – Learn strengths & weaknesses.
+- ⚡ **Smooth & Fast UI** – Built with Vite + React for top performance.
+- 🌐 **Client-Side Routing** – Powered by React Router for a seamless navigation experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite
+- **Data Source:** PokéAPI
+- **Styling:** Tailwind CSS
