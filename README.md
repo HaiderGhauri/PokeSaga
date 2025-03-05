@@ -14,3 +14,9 @@ PokéSaga is your ultimate Pokémon companion, providing quick and detailed Pok�
 - **Frontend:** React, Vite
 - **Data Source:** PokéAPI
 - **Styling:** Tailwind CSS
+
+
+  ## Demo
+Try Pokésaga live: [MarkSync](https://pokesaga.netlify.app/)   
+Here’s a preview:  
+![Pokesaga Demo](https://i.imgur.com/pYO6kAl.png)
